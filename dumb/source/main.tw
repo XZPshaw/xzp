@@ -1,0 +1,313 @@
+:: StoryData
+{
+        "ifid": "5DEB5264-F5B3-4E13-AF6B-82C4A8405A24",
+        "format": "SugarCube",
+	    "format-version": "2.35.0",
+        "start": "Start"
+}
+
+
+:: StoryTitle
+Sleep On, Dear Willie
+
+:: StoryInit
+/* <<cacheaudio "title" "C:/Users/xiaoz/DumbLuck/xjqy.mp3">>
+<<cacheaudio "music2" "C:/Users/xiaoz/DumbLuck/msmw.mp3">> */
+<!-- <<cacheaudio "title" "./audio/xjqy.mp3">> -->
+<<cacheaudio "music2" "./audio/msmw.mp3">>
+<<cacheaudio "title" "./audio/frontline.ogg">>
+<<set $count to 30>>
+
+:: Start
+
+[[Start Game|PreBattle]] 
+
+:: PreBattle[stye]
+<<audio "title" play>>
+<<fadein 10s>>
+"It’s been three weeks since we were first stationed here around Vimy. The French and Brits have tried to kick the Germans outta this place for years, with nothing to show for it, so now they’ve turned to us to get it done. I suppose if you want to win a fight, you bring the Canadians… Life here has been miserable, weather’s been stormy, so everything has been turned into a muddy mess, though with how much our artillery has been hitting the Germans I can’t imagine that life’s going any better for them! By now the sound of it has become white noise to the rest of the infantry, but recently everyone has been abuzz with activity, so I have to imagine that something major is on the horizon”
+<</fadein>>
+[[Continue|PreBattle1]] 
+
+:: PreBattle1
+"Will!”
+//A soldier yells, snapping me out of my writing. I looked up to find Private Edward, a well to do city boy and my friend, pushing through the throng of soldiers towards me.//
+
+[[Continue|PreBattle2]] 
+
+:: PreBattle2
+<<audio ":all" stop>>
+<<audio "music2" play>>
+
+“Oh, hey Ed, what’s going on?” 
+//I asked, stuffing the half-finished letter in my pocket as I pull myself to my feet.//
+
+“Sergeant’s orders Will,” 
+//Ed responds, somewhat out of breath,
+// “We’re on the move.”
+
+“Oh wow, I’m shocked…” 
+//I say in a monotone voice as Ed begins to lead us down the trench line.//
+“So then, what’s it this time? Another drill? Man, it’s only been a day since the last one… I swear they’re gonna have a mutiny in the week at this rate!”
+
+“Not this time, I think,” //Ed says,//
+“Haven’t you heard the rumors? I swear it’s been all anyone can talk about in the past few days!”
+
+//At this I stared at him for a few moments, processing what Ed had just told me.//
+“Wait… You don’t mean...?”
+
+
+[[Continue|PreBattle3]] 
+
+:: PreBattle3
+//Edward nods.//
+“Yup, seems like today is the big push. Apparently, the quartermaster started handing out an additional rum ration to everyone so that pretty much confirms it.”
+
+//Suddenly he sticks his arm out, stopping me in my tracks.//
+“Here, give me moment,” //Ed says, unslinging his rifle.//
+
+“If we’re going to battle, then I better make sure the Lee-Enfield is in working order, don’t you think?”
+//He says nonchalantly, working the bolt of his rifle.//
+
+How will Willie respond
+[[…How are y’all so calm about all this Ed? | PreBattleBranch1]]
+[[Well, alright… Where are we going, anyway?| PreBattleBranch2]]
+
+
+:: PreBattleBranch1
+“…Hmm? Now what do you mean by that?” 
+//Ed says, focussing on his weapon//
+
+
+“Well, if you’re right, and I reckon you are, in a few hours we’ll be chargin’ the goddamn Kraut line! We’ve been hitting them with the big guns for weeks and they haven’t budged! Are ya telling me the idea of chargin’ into that doesn’t scare ya even a little bit?” I respond, a touch of exacerbation entering my voice.
+
+//Ed finally looks up at me, with a bemused expression on his face.//
+“Oh well of course it does! But when I signed up I did so to defend my nation, do my part you know? Well, that nation gave me a job to do, so what’s the use in panicking and moping about it? Would rather just go on and get it done, that’s what I think… Especially with a rifle this good!” 
+//He beams, giving his gun a final inspection before slinging it across his back.//
+
+//Before we set off again however, a familiar whistling fills our ears.//
+“Shit, artillery!” 
+//I shout,//
+“Seems like those Germans are hittin’ us again!”
+
+“Appears so,”
+//Edward agrees.//
+“Still, we better get our heads down, just in case.”
+
+[[hunker down | PreBattleBranch1_continue1]]
+
+:: PreBattleBranch1_continue1
+//While we hunker down, however, some aren’t so prepared. Specifically, one boy catches my eye, can’t be older than 17, tucked into a fetal position and babbling to himself not a few feet away from us. When Ed notices him too, he chuckles to himself.//
+
+“Heh, goddamn rookies… Must have only gotten here a week ago if this is all that it takes to freak him out.”
+//Edward says, a slight scowl betraying his lighthearted tone. Before I could respond however, the shells began to hit, drowning out any conversation in a cacophony of noise. Luckily, the bombardment only lasted a few minutes before subsiding, whereupon everyone returned to their normal duties as if nothing had happened, barring the young recruit, who had refused to move from his position.//
+“Hmph, poor kid, shouldn’t even be here…”
+//Ed pauses for a second, his face blank, before once again cracking a grin and slapping me on the shoulder.//
+“Well, up and at’em, lets get a move on.” 
+//He says, pushing me forward.//
+
+
+
+
+
+:: PreBattleBranch2
+
+//I walks briskly down the line with Ed, pushing an ever-thickening throng of soldiers out of the way.//
+
+“Well, I told you, didn’t I? Free rum from the quartermaster! I’m not going to let either of us miss out on that.”
+//Ed answers with a laugh.//
+
+“Ha! Of course.”
+//I chuckle. A few minutes later and we’re resting against the wall of the trench, each of us clutching a small cup of rum like our lives depended on it.//
+
+“So…” //Ed says after taking a long sip,// “Why did you sign up to the Army anyway?”
+
+“Hmm? Now what makes you think I didn’t do it for King and Country?” //I answer with a exaggerated shock.//
+
+“Well, you seemed surprised when I said that, so I thought you weren’t too keen on it. Well, am I right?” //Ed retorts.//
+
+//I sigh.// “Fine, ya got me there. Can’t feel too much love for a King who makes us keep our buttons shiny in these parts, eh?” //I say, gesturing to the lake of mud the trench was currently covered in.//
+
+“Ha, I knew it!” //Ed exclaims, being careful not to spill any of his precious drink in his little celebration.//
+“So, what is it then? Family troubles? A bad relationship? The money?”
+
+“No, none of those!” //I answer, shaking my head at his last guess in particular.//
+“God, I feel for the poor soul who can’t find a better paying job than this… No, I love my family, love my home, but I felt stuck there, y’know? I didn’t want to be trapped in some podunk prairie town, so I looked for a way out, to see the world, y’know? And what with a war going on, I signed up as soon as I could! It’s not like I came here cause I wanted to kill the Germans, they seem like a fine people. I suppose I just wanted an excuse to leave home and not feel guilty about it. Never really thought I might not come back till I got here…”
+
+//Ed sits there for a second, nodding slightly.//
+“…Hmm, so that letter you were writing, was that for your family?”
+
+“Oh, yeah! What with all the activity I haven’t had the chance to write them back for nigh on a month now… Gotta thank’em for all the care packages, y’know? And if I don’t let ma know I’m okay soon I’m afraid she might get a heart attack from the worry.”
+
+[[Silence| PreBattleBranch2_continue1]]
+
+
+:: PreBattleBranch2_continue1
+
+//After a few moments of contemplation, Ed swings back the remainder of his booze and pats me on the shoulder.//
+“Well, I’m glad to hear you got some people who care back home. In a place like this, a man without something to go back to might never be able to leave it…”
+//He says, seemingly lost in thought for a moment before refocusing back on me.//
+“…Well, finish up your drink. If we aren’t at our post soon, I think the Sergeant will save the Fritz the trouble and shoot us himself!”
+
+
+“Oh, right… Of course Ed.” //I mutter.//
+
+
+[[Some time later | PreBattleBranch2_continue2]]
+
+:: PreBattleBranch2_continue2
+//We’re standing at attention as the Sergeant addresses our squad.//
+
+“Ahem… Well, as I’m sure you’ve all heard by now, today is the day we have been preparing for, in which we succeed where the Brits and French failed and kick the Hun from this blasted stretch of countryside for good!”
+//The Sergeant yells, elating a disjointed yet enthusiastic cheer from the troops.//
+“Yes yes, calm down… Now, before we are to be sent in, the boys in the Artillery battalions are going to hit the Krauts with a massive barrage to soften them up for us.”
+
+“Bigger than this, sir?” //One soldier shouts, getting a few laughs from the crowd.//
+
+“Apparently!” //the Sergeant responds,//
+“I, for one, am excited to see what they come up with. In the meantime, however, we are to set up on the line here. You will know when to attack when you hear my whistle. Now men, to your positions!”
+
+//The squad breaks from formation, scrambling along the line as Edward and I set up alongside each other, rifles at the ready.//
+
+“Well then Will, ready to fight?”
+
+“Heh, for King and Country, right Ed?”
+
+“That’s the spirit! Ha ha…”
+
+ <<set $seconds to 25>>
+
+<span id="countdown">$seconds</span>
+<<silently>>
+    <<repeat 1s>>
+        <<set $seconds to $seconds - 1>>
+        <<if $seconds gt 0>>
+            <<replace "#countdown">> $seconds <</replace>>
+        <<else>>
+            <<replace "#countdown">><</replace>>
+            <<goto "PreBattleBranch2_continue3">>
+            <<stop>>
+        <</if>>
+    <</repeat>>
+<</silently>>
+[[join the battle | PreBattleBranch2_continue3]]
+
+
+:: PreBattleBranch2_continue3
+<img src="./graphic/ww1-war-horse.gif" align="right"/>
+//As the minutes turn to hours, the artillery barrage begins, a massive bombardment involving ever gun we have firing on the German positions ahead. In the meantime, the mood amongst the men shifted, conversations growing silent as the adrenaline kicked up by the Sergeant wore off. Some of the men seem to be silently weeping. But, as the sound of the artillery tapers off, the Sergeant’s shrill whistle fills the air.//
+
+
+
+/* 
+
+
+
+
+:: Passage1
+//Open on the ending of the last scene. As the sound of the massive opening artillery strike tapers off, the Sergeant blows the whistle to signal the beginning of the assault.//
+
+SERGEANT: Come men, OVER THE TOP!
+
+//Willie and Edward scramble from their position and begin sprinting out into no mans land. Machine gun fire whizzes through the air as men to either side of them suddenly drop dead. Looking for cover, they duck into a nearby crater.//
+
+EDWARD: Willie, we have to keep moving!
+
+WILLIE: Right!
+
+[[Follow Ed|Passage2]]
+
+
+
+
+
+
+:: Passage2
+//Suddenly, both hear a panicked screaming to their side, and look to find a soldier cowering in a fetal position in a shell hole a few dozen meters to their left.//
+
+EDWARD: Goddamn rookies. C’mon Will, we have to move up!
+
+WILLIE: But… We shouldn’t just abandon him here, right?
+
+EDWARD: What, are you going to risk your life to try and calm him down? So he could, what, get shot a few minutes later? He’s a lost cause, we need to move on! 
+
+
+What does Willie do?
+
+[[Help the panicked soldier|A1 - Help the Soldier]]
+[[Keep moving with Edward|B1 - Keep Moving with Edward]]
+
+
+/* 
+
+:: A1 - Help the Soldier
+//Willie picks himself up and prepares to lift himself out of the trench.//
+
+EDWARD: …Wait, what are you doing you idiot?!
+
+WILLIE: I’m not just going to leave a comrade behind!
+
+EDWARD //grimacing//: Eugh… Fine, it’s your funeral.
+
+[[Move to the Soldier|A1.1]] */
+
+
+
+:: MyCoolStylesheet [stylesheet]
+
+body {
+  background: #ffff;
+  color: black;
+}
+
+
+
+:: Macros [script]
+
+Macro.add('fadein', {
+       tags : null,
+    handler : function () {
+
+        var $wrapper = $(document.createElement('span'));
+        var content  = this.payload[0].contents, time, delay;
+
+        if (this.args.length === 0) {
+            return this.error('no arguments given');
+        }
+        
+        time  = Util.fromCssTime(this.args[0]);
+        delay = (this.args.length > 1) ?  Util.fromCssTime(this.args[1]) : 0;
+
+        $wrapper
+            .wiki(content)
+            .addClass('macro-' + this.name)
+            .appendTo(this.output)
+            .hide()
+            .delay(delay)
+            .fadeIn(time);
+
+    }
+});
+
+Macro.add('fadeout', {
+       tags : null,
+    handler : function () {
+
+        var $wrapper = $(document.createElement('span'));
+        var content  = this.payload[0].contents, time, delay;
+
+        if (this.args.length === 0) {
+            return this.error('no arguments given');
+        }
+        
+        time  = Util.fromCssTime(this.args[0]);
+        delay = (this.args.length > 1) ?  Util.fromCssTime(this.args[1]) : 0;
+
+        $wrapper
+            .wiki(content)
+            .addClass('macro-' + this.name)
+            .appendTo(this.output)
+            .delay(delay)
+            .fadeOut(time);
+    }
+});
